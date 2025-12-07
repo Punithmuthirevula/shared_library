@@ -3,7 +3,7 @@ def call(tomcatServer, artifact_id) {
    sshPublisher(
                         publishers: [
                             sshPublisherDesc(
-                                configName: '${tomcatServer}   ',
+                                configName: '${tomcatServer}',
                                 transfers: [
                                     sshTransfer(
                                         cleanRemote: false, 
